@@ -15,15 +15,17 @@
     <a href="/contact">contact</a>
     <h1>Halaman Contact</h1>
 
-    <form action="/contact" method="post">
-        @csrf
-        <label for="nama">Nama:</label><br>
-        <input type="text" id="nama" name="nama"><br>
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br>
-        <label for="pesan">Pesan:</label><br>
-        <textarea id="pesan" name="pesan"></textarea><br>
-        <button type="button">Kirim</button>
+    <ul>
+        <li>
+            <a href="https://www.instagram.com">Instagram</a>
+        </li>
+        <li>
+            <a href="https://www.tiktok.com">Tiktok</a>
+        </li>
+        <li>
+            <a href="https://github.com">GitHub</a>
+        </li>
+    </ul>
 
 </body>
 </html>
